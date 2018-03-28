@@ -12,9 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         TextView textView = new TextView(this);
-        textView.setText("Awesome!");
+        textView.setText("Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome! Awesome!");
         textView.setTextColor(Color.BLUE);
         textView.setTextSize(24);
+        textView.setMaxLines(2);
 
         setContentView(textView);
     }
